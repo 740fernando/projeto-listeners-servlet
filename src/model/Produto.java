@@ -22,8 +22,7 @@ public class Produto implements HttpSessionBindingListener {
 	public void valueUnbound(HttpSessionBindingEvent e) {
 		
 		this.nome = null;
-	}
-	
+	}	
 }
 /*
  * // Toda vez que colocar o  produto na sessao, o conteiner -> vai verificar se a classe que foi colocado na sessao implementa a
